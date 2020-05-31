@@ -1,0 +1,24 @@
+Dependency to install :-
+   1) "child_process"
+   2) "fs"
+   3) "node-rsa"
+   4)  "socket.io"
+   5) "socket.io-client"
+
+to install above dependency run :- npm install $dependency_name$
+
+I am using node js with socket.io library.
+
+Run
+1) First run server by :- node chat-server
+2) Now open as many terminal as you want and start client on it:- node chat-client userName
+3) Now from any client you can pass message to all users(basically broadcast to all users);
+4) to run linux command on client you need to pass message in `message` for . here start and end char should be `.
+Example `ls` 
+5) for encryption and decryption of message I took random public key and private key. which also attacehd in current project.
+6) message  take from message.txt and send to whom I dont have enough clarity on this . so escapr this part.  
+
+
+ 
+
+
